@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Example</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul>
+            <li>Register</li>
+            <li>LogIn</li>
+        </ul>
+
+    </nav>
+   <form>
+    <section style="text-align:center;" class="header">
+    <h1>Join Example Company</h1>
+        </section>
+       <br>
+       <section class="fields">
+       <input type ="text" name="uname" id= "uname" class="input" placeholder= "Pick a Username" required>
+       <br>
+       <input type="text" name="Email" id="Email" class="input" placeholder="Add Your Email" required/> 
+       <br>
+        <input type="text" name="Confirm" id="Confirm" placeholder= "Confirm Email" required/>
+        <br>
+       <input type= "password" name="Password" id="Password" class="input" placeholder= "Choose a Password" required/>
+       <p id="passreq">Alphanumeric, ! . - _ @ allowed</p>
+       <h5 id="DOB">Date of Birth</h5>
+       <input type= "date" name ="Bday" id = "Bday" class= "input"required>
+       <h5 id="Gender">Gender</h5>
+       <input type="radio" name ="Male" id= "Male"><label for ="Male">Male</label>
+       <input type= "radio" name = "Female" id= "Female"><label for = "Female">Female</label>
+       <input type="radio" name = "Other" id="Other"><label for ="Other">Nonbinary</label>
+       <br>
+       <input type = "checkbox" name ="Share" id="Share"><label for ="Share">Share my registration data with Example's providers for marketing purposes.</label>
+       <br>
+       <input type = "checkbox" name="EmailUpdates"id="EmailUpdates"><label for ="EmailUpdates">Email me about upcoming sales and promotions.</label>
+       <br>
+       <input type = "checkbox" name="Robot" id="Robot"><label for ="Robot">I'm not a Robot</label>
+       <br>
+       <button type="submit">Sign Up</button>
+    </section>
+    <footer class="footer">
+        <ul>
+            <li>Privacy Policy</li>
+            <li>Terms of Service</li>
+            <li>Our Homepage</li>
+        </ul>
+        
+    </footer>
+   
+   </form> 
+</body>
+</html>
