@@ -33,8 +33,10 @@ nav ul{
     position:relative;
     top:110px;
     margin-left:150px;
-    border:5px solid black;
-    padding: 10px 10px 10px 10px
+    border:5px groove black;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius:15px;
 }
 footer{
     background-color:black;
@@ -54,7 +56,29 @@ footer ul{
     text-align: center;
 }
 .input{
-    widows: 50px;
+    width: 200px;
+    height: 20px;
     text-align: center;
-    padding: 5px 5px 5px 5px
+    padding: 5px 5px 5px 5px;
+    border:1px groove black;
+    margin: 3px 3px 3px 3px;
+    border-radius:15px;
+}
+#passreq{
+    margin:1px 1px 1px 1px;
+    font-size: small;
+}
+#DoB{
+    margin: 2px 2px 2px 2px;
+    font-size: 10px;
+}
+#submit{
+    margin: 3px 3px 3px 3px;
+
+}
+img{
+    width:50px;
+    height:50px;
+    border-radius: 15px;
+    padding: 3px 3px 3px 3px;
 }
